@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled List</title>
+
+    <style>
+        li::after {
+            content: " ✓";
+            color: green;
+            font-weight: bold;
+        }
+
+        li:nth-child(3) {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+    </ul>
+
+</body>
+</html>
